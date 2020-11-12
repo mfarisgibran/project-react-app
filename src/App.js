@@ -1,5 +1,11 @@
+import Navigation from './Navigation'
+
 function App() {
-  return <div>Project React App</div>
+  return (
+    <div>
+      <Navigation></Navigation>
+    </div>
+  )
 }
 
 export default App
