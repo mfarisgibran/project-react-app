@@ -6,10 +6,10 @@ import Counter from './Counter'
 function App() {
   return (
     <div>
-      <Navigation></Navigation>
-      <Profile name="M Faris Gibran" age="27" gender="male"></Profile>
-      <Photo></Photo>
-      <Counter></Counter>
+      <Navigation/>
+      <Profile name="M Faris Gibran" age={27} gender="male"/>
+      <Photo/>
+      <Counter/>
     </div>
   )
 }
